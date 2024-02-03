@@ -1,6 +1,6 @@
-import prisma from "@/lib/prisma";
+import prisma from "../lib/prisma";
 import styles from "./page.module.css";
-import Post from "@/components/Post";
+import Post from "../components/Post";
 import Link from "next/link";
 
 async function getPosts() {
